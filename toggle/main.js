@@ -3,3 +3,15 @@
 //Versione con toggle
 
 //Versione manuale
+$(document).ready(
+  function () {
+    //si avvia a pagina completata
+    // alert('ciao');
+    $('h1').click(
+      function () {
+        // $('p').slideToggle();
+        $('p').toggleClass('pippo');
+      }
+    );
+  }
+);
